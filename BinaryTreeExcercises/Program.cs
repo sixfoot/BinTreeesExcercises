@@ -3,7 +3,20 @@ using BinaryTreeExcercises;
 
 public class Solution
 {
-    public IList<int> PreorderTraversal(TreeNode root)
+	// Preorder traversal method using recursive approach. 
+	public void PreorderTraversalRecursive(TreeNode root, ref List<int> result)
+    {
+		if (root == null)
+		{
+			return;
+		}
+		result.Add(root.val);
+		PreorderTraversalRecursive(root.left, ref result);
+		PreorderTraversalRecursive(root.right, ref result);
+	}
+
+	// Preorder traversal method using List as a stack. 
+	public IList<int> PreorderTraversal(TreeNode root)
     {
 		List<int> result = new List<int>();
 		var node = root;
