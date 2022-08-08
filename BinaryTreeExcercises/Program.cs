@@ -3,6 +3,7 @@ using BinaryTreeExcercises;
 
 public class Solution
 {
+
 	// Preorder traversal method using recursive approach. 
 	public void PreorderTraversalRecursive(TreeNode root, ref List<int> result)
     {

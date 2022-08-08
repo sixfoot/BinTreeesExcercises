@@ -4,6 +4,7 @@ namespace TestTrees
     [TestClass]
     public class UnitTestTraversal
     {
+
         /// <summary>
         /// Generates basic tree [1,null,2,3] 
         /// </summary>
