@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BinaryTreeExcercises/.vs/BinaryTreeExcercises/DesignTimeBuild/.dtbcache.v2
+/BinaryTreeExcercises/obj
+/BinaryTreeExcercises/bin/Debug/net6.0
+/BinaryTreeExcercises/.vs
+/TestTrees/obj
+/TestTrees/bin/Debug/net6.0
